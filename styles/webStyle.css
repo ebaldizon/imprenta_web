@@ -1,0 +1,70 @@
+
+body {
+    font-size:12px;
+    background:#FFFFB5;
+}
+
+.banner-1
+{
+    background: #7EB941;
+}
+
+.banner-1 > div > p
+{
+    font-weight: bold;
+    color: black;
+}
+
+.menu_styles
+{
+    background: #067930;
+    border-radius: 0px;
+}
+
+.ul-style-1 > li > a
+{
+    color: white;
+}
+
+.ul-style-1 > li > a:hover
+{
+    background: #09B047;
+}
+
+.sm_menu-1
+{
+    padding-right: 15px;
+    padding-left: 0px;
+}
+
+.sm_menu-1 > div
+{
+    float: none;
+    color: white;
+    font-size:15px;
+}
+
+/*.sm_menu > button > p > span
+{
+    position: absolute;
+    color: white;
+    font-size:25px;
+}*/
+
+
+.logotipo-1
+{
+    width: 300px;
+}
+
+.logotipo-2
+{
+    width: 200px;
+}
+
+.p-menu-xs
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
