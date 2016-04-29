@@ -26,14 +26,20 @@ body {
     color: white;
 }
 
-.ul-style-1 > li > a:hover
+.ul-style-1 > li > a:hover,
+.ul-style-1 > li > a:focus
+{
+    background: #09B047;
+}
+
+.active
 {
     background: #09B047;
 }
 
 .sm_menu-1
 {
-    padding-right: 15px;
+    padding-right: 0px;
     padding-left: 0px;
 }
 
@@ -52,6 +58,30 @@ body {
 }*/
 
 
+
+
+.p-menu-xs
+{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-1
+{
+    width: 95%;
+    margin: auto;
+}
+
+/*************************  COLUMNAS ***************/
+.cs-1
+{
+    background: #F5F5F5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/*****************  IMAGENES *******************************/
 .logotipo-1
 {
     width: 300px;
@@ -62,9 +92,7 @@ body {
     width: 200px;
 }
 
-.p-menu-xs
+.googleMaps
 {
-    color: white;
-    text-align: center;
-    font-size: 20px;
+    width: 140px;
 }

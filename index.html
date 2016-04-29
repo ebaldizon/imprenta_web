@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
-    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/webStyle.css">
     <link rel="stylesheet" href="styles/bootstrap/fonts/">
     <title>Title</title>
@@ -41,14 +41,15 @@
         <!-- Agrupar los enlaces de navegación, los formularios y cualquier
              otro elemento que se pueda ocultar al minimizar la barra -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav ul-style-1">
-                <li class="active"><a href="#">Inicio</a></li>
-                <li><a href="#">Empresariales</a></li>
-                <li><a href="#">Publicitarios</a></li>
-                <li><a href="#">Complementarios</a></li>
-                <li><a href="#">Cont&aacute;ctenos</a></li>
-            </ul>
-
+            <div class="container-1">
+                <ul class="nav navbar-nav ul-style-1">
+                    <li class="active"><a href="#">Inicio</a></li>
+                    <li><a href="empresariales.html">Empresariales</a></li>
+                    <li><a href="publicitarios.html">Publicitarios</a></li>
+                    <li><a href="complementarios.html">Complementarios</a></li>
+                    <li><a href="contactenos.html">Cont&aacute;ctenos</a></li>
+                </ul>
+            </div>
                 <form class="navbar-form navbar-right" role="search">
                     <div class="form-group">
                         <input type="text" class="form-control" placeholder="Buscar">
@@ -60,6 +61,55 @@
     </nav>
 
     <div class="container">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <a href="#" target="blank">
+                        <img src="img/banner-1.png" alt="Ulatina-publicidad-1">
+                    </a>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="blank">
+                        <img src="img/banner-2.png" alt="Ulatina-publicidad-3">
+                    </a>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+                <div class="item">
+                    <a href="#" target="blank">
+                        <img src="img/banner-3.png" alt="Ulatina-publicidad-3">
+                    </a>
+                    <div class="carousel-caption">
+                        ...
+                    </div>
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+        <br/>
+
         <div class="row">
             <div class="col-xS-12 col-sm-6 col-md-3">
                 <p>iqwondoqiwnd qwnoq oqiwdnoqiwn qwndqwn qwnoid qwoiwq dnoiqw
