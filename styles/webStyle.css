@@ -2,11 +2,21 @@
 body {
     font-size:12px;
     background:#FFFFB5;
+    padding: 0px;
+    margin: 0px;
 }
 
 .banner-1
 {
     background: #7EB941;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.banner-1 > .row,  .banner-1 > .row > .col-tipo-1{
+    padding: 0px;
+    margin: 0px;
 }
 
 .banner-1 > div > p
@@ -73,6 +83,11 @@ body {
     margin: auto;
 }
 
+.cont-max
+{
+    margin-bottom: 120px;
+}
+
 /*************************  COLUMNAS ***************/
 .cs-1
 {
@@ -103,4 +118,73 @@ body {
     width: 280px;
     height: 200px;
     border-radius: 30px;
+}
+
+.img-table-2
+{
+
+}
+
+/**************** BOTONES *****************/
+.btn-color-1
+{
+    background: green;
+    color: white;
+}
+
+
+.btn-color-2:hover
+{
+    color: white;
+}
+
+/************** PARRAFOS ******************/
+.parrafo-1
+{
+    font-size: 14px;
+}
+
+/**************** Footer *****************/
+.footer-color-1
+{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#333f56+0,212f42+100 */
+    background: #333f56; /* Old browsers */
+    background: -moz-linear-gradient(top,  #333f56 0%, #212f42 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #333f56 0%,#212f42 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #333f56 0%,#212f42 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333f56', endColorstr='#212f42',GradientType=0 ); /* IE6-9 */
+    color: white;
+}
+
+.columna-color-1 h5 a, .columna-color-1 ul li  a,  .columna-color-1 ul li
+{
+    color: white;
+
+}
+
+.columna-color-1{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#41516d+0,314456+100 */
+    background: #41516d; /* Old browsers */
+    background: -moz-linear-gradient(top,  #41516d 0%, #314456 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #41516d 0%,#314456 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #41516d 0%,#314456 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#41516d', endColorstr='#314456',GradientType=0 ); /* IE6-9 */
+
+}
+
+.columna-color-2 h5 a, .columna-color-2 ul li a, .columna-color-2 ul li
+{
+    color: white;
+    list-style: none;
+}
+
+.columna-color-2
+{
+    padding-left: 25px;
+}
+
+.img-responsive-2
+{
+    width: 195px;
+    height: 100px;
 }
