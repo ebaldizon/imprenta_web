@@ -25,21 +25,30 @@ body {
     color: black;
 }
 
-.menu_styles
+.menu_styles, .ul-style-1 > li > ul
 {
     background: #067930;
     border-radius: 0px;
 }
 
-.ul-style-1 > li > a
+.ul-style-1 > li > a,
+.dropdown-style > ul > li > a
 {
     color: white;
 }
 
 .ul-style-1 > li > a:hover,
-.ul-style-1 > li > a:focus
+.ul-style-1 > li > a:focus,
+.dropdown-style > ul > li > a:hover
 {
     background: #09B047;
+    color: white;
+}
+
+.dropdown-toggle:active, .open .dropdown-toggle
+{
+    background: #09B047 !important;
+    color: white !important;
 }
 
 .active
@@ -86,6 +95,20 @@ body {
 .cont-max
 {
     margin-bottom: 120px;
+}
+
+.cont-max-responsive
+{
+    margin-bottom: 10%;
+}
+
+
+@media screen and (max-width:990px){
+    .cont-max-responsive
+    {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
 }
 
 /*************************  COLUMNAS ***************/
@@ -186,5 +209,6 @@ body {
 .img-responsive-2
 {
     width: 195px;
-    height: 100px;
+    height: 90px;
 }
+
