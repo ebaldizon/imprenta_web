@@ -177,6 +177,7 @@ body {
     background: linear-gradient(to bottom,  #333f56 0%,#212f42 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#333f56', endColorstr='#212f42',GradientType=0 ); /* IE6-9 */
     color: white;
+    margin-top: 100px;
 }
 
 .columna-color-1 h5 a, .columna-color-1 ul li  a,  .columna-color-1 ul li
@@ -212,3 +213,7 @@ body {
     height: 90px;
 }
 
+.img-page
+{
+    width: 360px;
+}
