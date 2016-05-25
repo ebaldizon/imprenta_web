@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/webStyle.css">
     <link rel="stylesheet" href="styles/bootstrap/fonts/">
+    <link rel="shortcut icon" href="img/favicon.JPG"/>
     <title>Inicio</title>
 </head>
 <body>
@@ -48,13 +49,13 @@
                                 Empresariales<b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="empresarial-layer/factura.html">Facturas</a></li>
-                                <li><a href="empresarial-layer/recibo.html">Recibos</a></li>
-                                <li><a href="empresarial-layer/tarjeta.html">Tarjetas de presentaci&oacute;n</a></li>
-                                <li><a href="empresarial-layer/papelMembrete.html">Papel con membrete</a></li>
-                                <li><a href="empresarial-layer/notaLogotipo.html">Notas con logotipo</a></li>
-                                <li><a href="empresarial-layer/catalogo.html">Cat&aacute;logos</a></li>
-                                <li><a href="empresarial-layer/manual.html">Manuales de trabajo</a></li>
+                                <li><a href="ProEmpresarial/factura.html">Facturas</a></li>
+                                <li><a href="ProEmpresarial/recibo.html">Recibos</a></li>
+                                <li><a href="ProEmpresarial/tarjeta.html">Tarjetas de presentaci&oacute;n</a></li>
+                                <li><a href="ProEmpresarial/papelMembrete.html">Papel con membrete</a></li>
+                                <li><a href="ProEmpresarial/notaLogotipo.html">Notas con logotipo</a></li>
+                                <li><a href="ProEmpresarial/catalogo.html">Cat&aacute;logos</a></li>
+                                <li><a href="ProEmpresarial/manual.html">Manuales de trabajo</a></li>
                             </ul>
                         </li>
 
@@ -63,12 +64,12 @@
                                 Publicitarios<b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="publicitario-layer/afiche.html">Afiches</a></li>
-                                <li><a href="publicitario-layer/brochure.html">Brochures</a></li>
-                                <li><a href="publicitario-layer/calendario.html">Calendarios</a></li>
-                                <li><a href="publicitario-layer/folder.html">Folders</a></li>
-                                <li><a href="publicitario-layer/libreta.html">Libretas</a></li>
-                                <li><a href="publicitario-layer/adhesivo.html">Adhesivos</a></li>
+                                <li><a href="ProPublicitario/afiche.html">Afiches</a></li>
+                                <li><a href="ProPublicitario/brochure.html">Brochures</a></li>
+                                <li><a href="ProPublicitario/calendario.html">Calendarios</a></li>
+                                <li><a href="ProPublicitario/folder.html">Folders</a></li>
+                                <li><a href="ProPublicitario/libreta.html">Libretas</a></li>
+                                <li><a href="ProPublicitario/adhesivo.html">Adhesivos</a></li>
                             </ul>
                         </li>
 
@@ -77,18 +78,18 @@
                                 Otros<b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="otro-layer/tesis.html">Empastes de tesis</a></li>
-                                <li><a href="otro-layer/sello.html">Sellos de hule</a></li>
-                                <li><a href="otro-layer/menuRestaurante.html">Menús de restaurantes</a></li>
-                                <li><a href="otro-layer/otro.html">Otros pedidos</a></li>
+                                <li><a href="ProOtro/tesis.html">Empastes de tesis</a></li>
+                                <li><a href="ProOtro/sello.html">Sellos de hule</a></li>
+                                <li><a href="ProOtro/menuRestaurante.html">Menús de restaurantes</a></li>
+                                <li><a href="ProOtro/otro.html">Otros pedidos</a></li>
                             </ul>
                         </li>
                         <li><a href="contactenos.html">Cont&aacute;ctenos</a></li>
                     </ul>
                 </div>
-                <form class="navbar-form navbar-right" role="search">
+                <form class="navbar-form navbar-right" role="search" method="get" action="Application/AdminBusqueda.php">
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Buscar">
+                        <input type="text" class="form-control" placeholder="Buscar" id="txtBusqueda" name="txtBusqueda">
                     </div>
                     <button type="submit" class="btn btn-default">Enviar</button>
                 </form>
@@ -170,33 +171,33 @@
                     <div class="col-xS-2 col-sm-4 col-md-4">
                         <h5><a href="empresariales.html">Empresariales</a></h5>
                         <ul class="list-group">
-                            <li><a href="empresarial-layer/factura.html">Facturas</a></li>
-                            <li><a href="empresarial-layer/recibo.html">Recibos</a></li>
-                            <li><a href="empresarial-layer/tarjeta.html">Tarjetas de presentaci&oacute;n</a></li>
-                            <li><a href="empresarial-layer/papelMembrete.html">Papel con membrete</a></li>
-                            <li><a href="empresarial-layer/notaLogotipo.html">Notas con logotipo</a></li>
-                            <li><a href="empresarial-layer/catalogo.html">Cat&aacute;logo de productos</a></li>
-                            <li><a href="empresarial-layer/manual.html">Manuales de trabajo</a></li>
+                            <li><a href="ProEmpresarial/factura.html">Facturas</a></li>
+                            <li><a href="ProEmpresarial/recibo.html">Recibos</a></li>
+                            <li><a href="ProEmpresarial/tarjeta.html">Tarjetas de presentaci&oacute;n</a></li>
+                            <li><a href="ProEmpresarial/papelMembrete.html">Papel con membrete</a></li>
+                            <li><a href="ProEmpresarial/notaLogotipo.html">Notas con logotipo</a></li>
+                            <li><a href="ProEmpresarial/catalogo.html">Cat&aacute;logo de productos</a></li>
+                            <li><a href="ProEmpresarial/manual.html">Manuales de trabajo</a></li>
                         </ul>
                     </div>
                     <div class="col-xS-2 col-sm-4 col-md-4">
                         <h5><a href="publicitarios.html">Publicitarios</a></h5>
                         <ul class="list-group">
-                            <li><a href="publicitario-layer/afiche.html">Afiches</a></li>
-                            <li><a href="publicitario-layer/brochure.html">Brochures</a></li>
-                            <li><a href="publicitario-layer/calendario.html">Calendarios</a></li>
-                            <li><a href="publicitario-layer/folder.html">Folders</a></li>
-                            <li><a href="publicitario-layer/libreta.html">Libretas</a></li>
-                            <li><a href="publicitario-layer/adhesivo.html">Adhesivos</a></li>
+                            <li><a href="ProPublicitario/afiche.html">Afiches</a></li>
+                            <li><a href="ProPublicitario/brochure.html">Brochures</a></li>
+                            <li><a href="ProPublicitario/calendario.html">Calendarios</a></li>
+                            <li><a href="ProPublicitario/folder.html">Folders</a></li>
+                            <li><a href="ProPublicitario/libreta.html">Libretas</a></li>
+                            <li><a href="ProPublicitario/adhesivo.html">Adhesivos</a></li>
                         </ul>
                     </div>
                     <div class="col-xS-2 col-sm-4 col-md-4">
                         <h5><a href="otros.html">Otros</a></h5>
                         <ul class="list-group">
-                            <li><a href="otro-layer/tesis.html">Empastes de tesis</a></li>
-                            <li><a href="otro-layer/sello.html">Sellos de hule</a></li>
-                            <li><a href="otro-layer/menuRestaurante.html">Menús de restaurantes</a></li>
-                            <li><a href="otro-layer/otro.html">Otros pedidos</a></li>
+                            <li><a href="ProOtro/tesis.html">Empastes de tesis</a></li>
+                            <li><a href="ProOtro/sello.html">Sellos de hule</a></li>
+                            <li><a href="ProOtro/menuRestaurante.html">Menús de restaurantes</a></li>
+                            <li><a href="ProOtro/otro.html">Otros pedidos</a></li>
                         </ul>
                     </div>
                 </div>
