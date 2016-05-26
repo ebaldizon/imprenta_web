@@ -1,7 +1,12 @@
+<?php
+      include 'Entities/Busqueda.php';
+      session_start();
+      $resultados = $_SESSION['resultados'];
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+  <meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <link rel="stylesheet" href="styles/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" href="styles/webStyle.css">
@@ -97,22 +102,18 @@
     </nav>
 
     <div class="container">
-    <?php session_start();
-
-      //$resultado = $_SESSION['resultado'];
-      $test = $_SESSION['test'];
-      echo "Mi test:".$test;
-
-      /*echo "<table border = '1'> \n";
-      echo "<tr><td>Nombre Web</td><td>Dirección</td></tr> \n";
-      while ($row = mysqli_fetch_row($resultado)){
-             echo "<tr><td>$row[0]</td><td>$row[1]</td></tr> \n";
-      }
-      echo "</table> \n";*/
-    ?>
-
+    <h3>Resultados relacionados</h3>
+    <?php
+        $long =  count($resultados);
+        for($i=0; $i<$long; $i++)
+        {
+          $iBus = new Busqueda();
+          $iBus = $resultados[$i];
+          echo "<br/><a href=http://localhost/PROYECTOS/".$iBus->getDireccion().">".$iBus->getNombreWeb()."</a>";
+          //echo "<br/>Nombre:"$iBus->getNombreWeb().", enlace:".$iBus->getDireccion();
+        }
+     ?>
     </div>
-
     <div class="panel-footer footer-color-1">
         <div class="container">
             <div class="row">

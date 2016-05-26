@@ -1,35 +1,15 @@
 <?php
     class Busqueda
     {
-        private $palabra;
         private $nombreWeb;
         private $contenido;
         private $direccion;
 
-        function _construct()
+        function _construct($nombreWeb, $contenido, $direccion)
         {
-          $this->palabra = "";
-          $this->nombreWeb = "";
-          $this->contenido = "";
-          $this->direccion = "";
-        }
-
-        function _construct($palabra, $nombreWeb, $contenido, $direccion)
-        {
-          $this->palabra = $palabra;
           $this->nombreWeb = $nombreWeb;
           $this->contenido = $contenido;
           $this->direccion = $direccion;
-        }
-
-        function getPalabra()
-        {
-          return $this->palabra;
-        }
-
-        function setPalabra($palabra)
-        {
-          $this->palabra = $palabra;
         }
 
         function getNombreWeb()
