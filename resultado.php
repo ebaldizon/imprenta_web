@@ -109,7 +109,7 @@
         {
           $iBus = new Busqueda();
           $iBus = $resultados[$i];
-          echo "<br/><a href=http://localhost/PROYECTOS/".$iBus->getDireccion().">".$iBus->getNombreWeb()."</a>";
+          echo "<br/><a href=".$iBus->getDireccion().">".$iBus->getNombreWeb()."</a>";
           //echo "<br/>Nombre:"$iBus->getNombreWeb().", enlace:".$iBus->getDireccion();
         }
      ?>
